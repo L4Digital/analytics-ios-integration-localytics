@@ -23,6 +23,14 @@
 		1205F1D989239C35ACC9D58B1129844A /* Pods-Segment-Localytics_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B41926DAF8CC996934BCD597EC6C48 /* Pods-Segment-Localytics_Example-dummy.m */; };
 		14C609D8F203FD45194E93997EFF744E /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA9E7132DCE8A6D397F4BE017676D87 /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BBCADDC3F815317F973D413D2CD648 /* SEGAnalyticsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD054EE22864C53A8C2BF3C7F054B83 /* SEGAnalyticsUtils.m */; };
+		19428BE01FF5CFCA00A47C4F /* SegmentLocalyticsIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = 19428BDE1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19428BE41FF5CFD800A47C4F /* libAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC16A93362591F26B386402C740008 /* libAnalytics.a */; };
+		19428BE51FF5CFE300A47C4F /* Localytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2EB7D873CDC30E247DE8762DD71494 /* Localytics.framework */; };
+		19428BE61FF5CFF500A47C4F /* SEGLocalyticsIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = 124634317C9EEE6D0DD70BC4D2AF0F40 /* SEGLocalyticsIntegration.m */; };
+		19428BE71FF5CFF500A47C4F /* SEGLocalyticsIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C47462F665693CA8A2193AD57CA179D8 /* SEGLocalyticsIntegrationFactory.m */; };
+		19428BE81FF5CFF500A47C4F /* Segment-Localytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFCF87BAAAE4EFFFA152ADAD36B7638 /* Segment-Localytics-dummy.m */; };
+		19428BE91FF5D00200A47C4F /* SEGLocalyticsIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = B90B6F185AECBB86A756D2E0F416BE82 /* SEGLocalyticsIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19428BEA1FF5D00200A47C4F /* SEGLocalyticsIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6433D5FB993EB50FE70A5596D9754B /* SEGLocalyticsIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21F35874229FAC9619E1B4AEA0E4E259 /* SEGStoreKitTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = B18EB7040328A08F6D3189758EB8EB88 /* SEGStoreKitTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2239B5E63C5D2C1323D66F489F075C42 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBC49DA6B74FC9CBD720C2F142860E0 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		22E2AD61FEB3923D64F8283D90A4F5D0 /* SEGStoreKitTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8B9684E3189AF130B2DF1811335EC /* SEGStoreKitTracker.m */; };
@@ -211,6 +219,9 @@
 		153EB0F904A9D8ED5003E85DE1BCE38E /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
 		177D0392ED273690715A275079486229 /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
 		188D455644FD8350F25E8772BF731F2B /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
+		19428BDC1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentLocalyticsIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19428BDE1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentLocalyticsIntegration.h; sourceTree = "<group>"; };
+		19428BDF1FF5CFCA00A47C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19B71D0C59B92849D719350E38D0EDE0 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		1D4AE270B5D531580F3C9EBA3432D210 /* Analytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Analytics-prefix.pch"; sourceTree = "<group>"; };
 		2087AE4069351C510BF55364F5609C74 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
@@ -221,7 +232,7 @@
 		26FDEEB53BB4BDEA417152FD0B9735A2 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		2A6D486FF5BFF7990EB3802B8F31E37C /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
 		2AF19247E20150A4EA73AB343AE1094D /* SEGIntegration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegration.h; path = Pod/Classes/Integrations/SEGIntegration.h; sourceTree = "<group>"; };
-		2C2EB7D873CDC30E247DE8762DD71494 /* Localytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Localytics.framework; path = "Localytics-iOS-4.0.0/Localytics.framework"; sourceTree = "<group>"; };
+		2C2EB7D873CDC30E247DE8762DD71494 /* Localytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Localytics.framework; path = "../../Pods/Localytics/Localytics-iOS-4.0.0/Localytics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E825737C39D0F3CE4D03DE1D67291D3 /* SEGIntegrationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGIntegrationFactory.h; path = Pod/Classes/Integrations/SEGIntegrationFactory.h; sourceTree = "<group>"; };
 		2EE96BDAEE5BFDEDF510075B490CEF4A /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
 		30B556536B9BCEA5D7656AE8A9B81808 /* SEGAnalyticsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGAnalyticsRequest.h; path = Pod/Classes/Internal/SEGAnalyticsRequest.h; sourceTree = "<group>"; };
@@ -382,6 +393,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FE611C66F495C260ED0353C3390329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19428BD81FF5CFCA00A47C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19428BE51FF5CFE300A47C4F /* Localytics.framework in Frameworks */,
+				19428BE41FF5CFD800A47C4F /* libAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +586,15 @@
 			path = Analytics;
 			sourceTree = "<group>";
 		};
+		19428BDD1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				19428BDE1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration.h */,
+				19428BDF1FF5CFCA00A47C4F /* Info.plist */,
+			);
+			path = SegmentLocalyticsIntegration;
+			sourceTree = "<group>";
+		};
 		1C6B8C7E62708DD2D851D9AD518ABECE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -624,6 +653,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BE8B287E909258C882534EDE1CD8E7C2 /* Development Pods */,
+				19428BDD1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				65FE68DEA2D9D95F47C731FF7B3C7E4E /* Pods */,
 				FEEC0C3F613B37388D7407F497ED3674 /* Products */,
@@ -773,6 +803,7 @@
 				83CA97546AAD60E43DFB156F545F0B4C /* libPods-Segment-Localytics_Tests.a */,
 				46389E3F1D9E2E7667C1BA7506771051 /* libSegment-Localytics.a */,
 				7E2433C4E04050088F09ED93E0A6A077 /* libSpecta.a */,
+				19428BDC1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -780,6 +811,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		19428BD91FF5CFCA00A47C4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19428BE91FF5D00200A47C4F /* SEGLocalyticsIntegration.h in Headers */,
+				19428BEA1FF5D00200A47C4F /* SEGLocalyticsIntegrationFactory.h in Headers */,
+				19428BE01FF5CFCA00A47C4F /* SegmentLocalyticsIntegration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		831C2BAF39FCF285CF1A03921A1DF00E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -886,6 +927,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		19428BDB1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19428BE31FF5CFCA00A47C4F /* Build configuration list for PBXNativeTarget "SegmentLocalyticsIntegration" */;
+			buildPhases = (
+				19428BD71FF5CFCA00A47C4F /* Sources */,
+				19428BD81FF5CFCA00A47C4F /* Frameworks */,
+				19428BD91FF5CFCA00A47C4F /* Headers */,
+				19428BDA1FF5CFCA00A47C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentLocalyticsIntegration;
+			productName = SegmentLocalyticsIntegration;
+			productReference = 19428BDC1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		1EBBD2CDA600D0C28B8EC205994FAE38 /* Specta */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48816C06B756450661FB2E133B3480AA /* Build configuration list for PBXNativeTarget "Specta" */;
@@ -999,6 +1058,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					19428BDB1FF5CFCA00A47C4F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1018,9 +1083,20 @@
 				A48422E9F28BA071C09C2BEA7F06CF8F /* Pods-Segment-Localytics_Tests */,
 				545C1D5396F4FA0DC73B88C34147AD62 /* Segment-Localytics */,
 				1EBBD2CDA600D0C28B8EC205994FAE38 /* Specta */,
+				19428BDB1FF5CFCA00A47C4F /* SegmentLocalyticsIntegration */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19428BDA1FF5CFCA00A47C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00D6E3411A74BEC887FDD4448403E431 /* Sources */ = {
@@ -1080,6 +1156,16 @@
 				E2EBD18BA89D3FF648947DF31FA12D44 /* EXPMatchers+respondTo.m in Sources */,
 				40F505E69B8595361C2A7528DDA222B6 /* EXPUnsupportedObject.m in Sources */,
 				872948DAF79618AD725E0BF364E5DDD4 /* NSValue+Expecta.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19428BD71FF5CFCA00A47C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19428BE61FF5CFF500A47C4F /* SEGLocalyticsIntegration.m in Sources */,
+				19428BE71FF5CFF500A47C4F /* SEGLocalyticsIntegrationFactory.m in Sources */,
+				19428BE81FF5CFF500A47C4F /* Segment-Localytics-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1211,6 +1297,111 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
+		};
+		19428BE11FF5CFCA00A47C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CD503B4F34A54CBBEF7F5C8E8C0789 /* Segment-Localytics.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Localytics/Localytics-iOS-4.0.0",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SegmentLocalyticsIntegration/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SegmentLocalyticsIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19428BE21FF5CFCA00A47C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CD503B4F34A54CBBEF7F5C8E8C0789 /* Segment-Localytics.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Localytics/Localytics-iOS-4.0.0",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SegmentLocalyticsIntegration/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.SegmentLocalyticsIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		1C4E4899BE01820151368B07EB14F4A0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1505,6 +1696,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19428BE31FF5CFCA00A47C4F /* Build configuration list for PBXNativeTarget "SegmentLocalyticsIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19428BE11FF5CFCA00A47C4F /* Debug */,
+				19428BE21FF5CFCA00A47C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2AC10DFCC3C4BD299187A5E47F0035AE /* Build configuration list for PBXNativeTarget "Analytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
